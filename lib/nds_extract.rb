@@ -20,47 +20,7 @@ def directors_totals(nds)
   
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   
-  
-  
-
-  
-  
-  
-  
-  
-  
   result = {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
@@ -70,7 +30,9 @@ def directors_totals(nds)
   
   row_index = 0 
   
-  while row_index do
+  while row_index < nds.count do
+    
+    result <<
     
     row_index += 1 
   end 
