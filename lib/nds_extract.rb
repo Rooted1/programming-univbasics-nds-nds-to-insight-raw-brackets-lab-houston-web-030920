@@ -56,7 +56,7 @@ def directors_totals(nds)
   #   row_index += 1 
   # end 
   
-  p nds[0][:movies][0][:worldwide_gross]
+  p nds[0][:movies][1][:worldwide_gross]
 end
 
 
