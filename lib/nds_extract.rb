@@ -58,7 +58,7 @@ def directors_totals(nds)
   
   
   p nds[row_index][:name]
-  p sum_total
+  # p sum_total
 end
 
 
