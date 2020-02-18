@@ -33,6 +33,7 @@ def directors_totals(nds)
   row_index = 0 
   
   while row_index < nds.count do
+    p nds[row_index]
     total_grosses_per_director = 0
     
     
@@ -57,8 +58,8 @@ def directors_totals(nds)
   end 
   
   
-  p nds[row_index]
-  # p sum_total
+  # p nds[row_index]
+  p sum_total
 end
 
 
