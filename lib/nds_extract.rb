@@ -32,8 +32,12 @@ def directors_totals(nds)
   
   row_index = 0 
   
-  while row_index < nds.count do
+  while row_index < nds.count 
+  
+  
     p nds[row_index][:name]
+    
+    
     total_grosses_per_director = 0
     
     
@@ -52,14 +56,16 @@ def directors_totals(nds)
     
     
     
-    sum_total << total_grosses_per_director
+    # sum_total << total_grosses_per_director
+    
+    result["#{nds[row_index][:name]}"] = total_grosses_per_director
     
     row_index += 1 
   end 
   
   
   # p nds[row_index]
-  p sum_total
+  p result
 end
 
 
