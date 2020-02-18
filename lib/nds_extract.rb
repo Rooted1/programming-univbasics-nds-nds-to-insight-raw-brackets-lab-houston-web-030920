@@ -34,11 +34,13 @@ def directors_totals(nds)
   
   while row_index < nds[row_index].count do
     
-    total_grosses_per_director += nds[row_index][:movies][:worldwide_gross]
     
     column_index = 0
     while column_index < nds[row_index] do 
       
+      total_grosses_per_director += nds[row_index][:movies][:worldwide_gross]
+      
+      column_index += 0 
     end
     
     row_index += 1 
