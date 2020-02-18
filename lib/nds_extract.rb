@@ -42,7 +42,7 @@ def directors_totals(nds)
     
     while column_index < nds[row_index][:movies].count do 
       
-      total_grosses_per_director += nds[row_index][:movies][:worldwide_gross]
+      total_grosses_per_director += nds[row_index][:movies][column_index][:worldwide_gross]
       
       column_index += 1  
     end
@@ -57,6 +57,8 @@ def directors_totals(nds)
   end 
   
   # p nds[0][:movies][1][:worldwide_gross]
+  
+  p sum_total
 end
 
 
