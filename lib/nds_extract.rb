@@ -56,7 +56,7 @@ def directors_totals(nds)
     row_index += 1 
   end 
   
-  puts sum_total
+  p sum_total
 end
 
 
