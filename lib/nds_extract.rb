@@ -33,7 +33,7 @@ def directors_totals(nds)
   row_index = 0 
   
   while row_index < nds.count do
-    p nds[row_index]
+    p nds[row_index][:name]
     total_grosses_per_director = 0
     
     
