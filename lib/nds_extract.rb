@@ -31,15 +31,7 @@ def directors_totals(nds)
   row_index = 0 
   
   while row_index < nds.count 
-  
-  
-    p nds[row_index][:name]
-    
-    
     total_grosses_per_director = 0
-    
-    
-    
     
     column_index = 0
     
@@ -50,44 +42,10 @@ def directors_totals(nds)
       column_index += 1  
     end
     
-    
-    
-    
-    
-    # sum_total << total_grosses_per_director
-    
     result["#{nds[row_index][:name]}"] = total_grosses_per_director
     
     row_index += 1 
   end 
-  
-  
-  # p nds[row_index]
+
   p result
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# result["#{nds[:name]}"] = nds[:movies][:worldwide_gross]
