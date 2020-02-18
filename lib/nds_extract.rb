@@ -41,7 +41,7 @@ def directors_totals(nds)
       
       total_grosses_per_director += nds[row_index][:movies][:worldwide_gross]
       
-      column_index += 0 
+      column_index += 1  
     end
     
     row_index += 1 
