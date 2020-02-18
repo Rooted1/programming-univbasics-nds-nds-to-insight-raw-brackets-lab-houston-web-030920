@@ -25,8 +25,6 @@ def directors_totals(nds)
     
     
   }
-  
- sum_total = []
  
  
   
