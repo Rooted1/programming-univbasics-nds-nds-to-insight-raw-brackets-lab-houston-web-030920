@@ -57,7 +57,7 @@ def directors_totals(nds)
   end 
   
   
-  p nds[row_index][:name]
+  p nds[row_index][:movies]
   # p sum_total
 end
 
